@@ -3,6 +3,7 @@
     --green-two: #1dbe42;
     --gray-one: #343a40;
     --gray-two: #eeeeee;
+    --gray-three: #cecece;
     --blue: #3043BF;
     --blue-two: #8795f5;
     --red: #BF0A1A;
@@ -24,11 +25,13 @@
     border: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 html {
     font-size: 62.5%;
     color: var(--black);
+    background-color: var(--gray-three);
 }
 
 a {
@@ -59,7 +62,7 @@ html, body {
     align-items: flex-end;
     border-radius: 12px;
     margin-top: 4px;
-    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.329)
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.329);    
 }
 
 .language-bar ul li{
@@ -90,7 +93,7 @@ html, body {
     background-color: var(--green-one);
     border-radius: 12px;
     padding: 4px;
-    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.329)
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.329);
 }
 
 .nav-bar ul {
@@ -177,7 +180,7 @@ h1, h2 {
     border-radius: 12px;
     padding: 4px;
     height: auto;
-    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.329)
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.329);
 }
 
 .article ol {
